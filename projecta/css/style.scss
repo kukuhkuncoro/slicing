@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+$primaryColor: #fb8f1d;
+* {
+  height: 5588px;
+}
+
+body {
+  font-family: 'playfair', 'inter';
+}
+
+.custom-nav {
+  #navbarNav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          margin-left: 2.2em;
+        }
+        .nav-link-login {
+          border-radius: 2em;
+          background-color: transparent;
+          border: $primaryColor solid;
+          margin-left: 1em;
+          color: $primaryColor;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+        .nav-link-register {
+          border-radius: 2em;
+          margin-left: 1em;
+          background-color: $primaryColor;
+          border: none;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+}
+h2 {
+  font-family: 'playfair display';
+  font-size: 64px;
+}
+
+.container {
+  .img-sec1 {
+    .custom-row {
+      .content {
+        margin-left: -7em;
+      }
+      .bkg-img {
+        display: flex;
+      }
+    }
+  }
+}
+.custom-drop {
+  display: inline-block;
+
+  .drop1 {
+    padding-block: 2em;
+
+    #dropdownMenuLink {
+      background-color: transparent;
+      border-color: black solid;
+      color: black;
+      font-family: 'inter';
+      width: 9em;
+      margin-inline: 0.5em;
+      margin-top: -39em;
+    }
+  }
+  .drop3 {
+    margin-top: 1em;
+    display: inline-block;
+    #dropdownMenuLink {
+      background-color: transparent;
+      border-color: black solid;
+      color: black;
+      font-family: 'inter';
+      width: 9em;
+      margin-inline: 0.5em;
+    }
+  }
+  .custom-btn {
+    background-color: $primaryColor;
+    border-radius: 8px;
+    margin-top: 2em;
+    position: absolute;
+    width: 13em;
+
+    .btn {
+      color: white;
+    }
+  }
+
+  .section1 {
+    background-image: url(/img/Thousand-02\1.svg);
+  }
+}
+.img-sec1 {
+  margin-left: -30em;
+  .custom-row {
+    .content {
+      h4 {
+        z-index: 100;
+      }
+
+      .bg-img {
+        margin-top: -15em;
+        margin-left: -15em;
+        z-index: -1000 !important;
+      }
+    }
+    .dropdown {
+      margin-top: -20em;
+    }
+  }
+}
+
+.img-sec2 {
+  margin-top: 16em;
+  .col-4 {
+    margin-top: 9em;
+    h2 {
+      font-family: 'playfair display';
+      font-size: 36px;
+      font-weight: bold;
+    }
+    h4 {
+      font-family: 'mulish';
+      font-size: 17px;
+    }
+    .btn {
+      background-color: $primaryColor;
+      border: none;
+      font-family: 'inter';
+      font-size: 16px;
+      width: 10em;
+      margin-top: 18px;
+    }
+  }
+}
+
+.card-img {
+  margin-top: 7em;
+  .row {
+    .col {
+      font-family: 'Playfair display';
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .col-1 {
+      color: $primaryColor;
+    }
+  }
+}
+.container3 {
+  display: inline block;
+  margin-top: 2em;
+}
+
+.guide {
+  margin-top: 5em;
+  .col-6 {
+    p {
+      font-family: 'Playfair Display';
+      font-size: 36px;
+      font-weight: bold;
+    }
+    h3 {
+      font-family: Mulish;
+      font-size: 17px;
+    }
+    .guide-btn {
+      background-color: $primaryColor;
+      border-color: transparent;
+      border-radius: 8px;
+      width: 10em;
+      color: white;
+    }
+  }
+}
+.footer {
+  background-color: #c4c4c4;
+  margin-top: 5em;
+  .footer1 {
+    .plan {
+      p {
+        margin-top: 9px;
+        font-family: Mulish;
+        font-size: 14px;
+      }
+    }
+    .destination {
+      font-family: Mulish;
+      font-size: 19px;
+      font-weight: bold;
+      ul {
+        padding-left: 9px;
+        li {
+          list-style-type: none;
+          font-family: Mulish;
+          font-size: 14px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}
+
+.shop {
+  font-family: Mulish;
+  font-size: 19px;
+  font-weight: bold;
+  ul {
+    padding-left: 1px;
+    li {
+      list-style-type: none;
+      font-family: Mulish;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+  }
+}
+
+.interest {
+  font-family: Mulish;
+  font-size: 19px;
+  font-weight: bold;
+  ul {
+    padding-left: 1px;
+    li {
+      list-style-type: none;
+      font-family: Mulish;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+  }
+}
+.footer2 {
+  .row {
+    position: absolute;
+    left: 50%;
+  }
+}
